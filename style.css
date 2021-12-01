@@ -1,3 +1,31 @@
 body {
     background;
 }
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+    background-color: tomato;
+    height: 75px;
+}
+
+#header-title {
+    text-align: left;
+    padding-left: 20px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar {
+    text-align: left;
+    padding-left: 20px;
+    display: block
+    
+
+}
