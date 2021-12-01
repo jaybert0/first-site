@@ -1,14 +1,9 @@
-body {
-    background;
-}
-
 * {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#header {
+header {
     background-color: tomato;
-    height: 75px;
 }
 
 #header-title {
@@ -22,10 +17,62 @@ body {
     font-weight: bold;
 }
 
-.navbar {
-    text-align: left;
-    padding-left: 20px;
-    display: block
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     
+}
+
+.navbar li {
+    float: left;
+    border-right: 1px solid tomato;
+}
+
+
+
+.navbar a {
+    display: block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: tomato;
+    text-decoration: none;
+    
+}
+
+.navbar { 
+    text-transform: uppercase;
+   }
+
+.mainphoto {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.intro {
+    padding-left: 20px;
+}
+
+.greetings {
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+
+
+footer {
+    background-color: tomato;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 20px;
+}
+.footlinks img {
+    height: 35px;
 
 }
