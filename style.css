@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 * {
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -74,4 +76,8 @@ footer {
 .footlinks img {
     height: 35px;
 
+}
+
+h3#script {
+    font-family: 'Pacifico', Helvetica, sans-serif;;
 }
