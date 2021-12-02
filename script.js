@@ -1,6 +1,14 @@
-const h2 = document.createElement("h2")
-h2.textContent = "";
-document.querySelector("body").appendChild(h2);
+const cliffInput = document.getElementById('cliff');
+cliffInput.addEventListener('click', function(){
+    alert(`One of my favorite hikes ever: Cathedral Rock in Sedona, AZ`);
+}
+);
+
+const hikeInput = document.getElementById('reeceAndJ');
+hikeInput.addEventListener('click', function(){
+    alert('Local happy spot: Harriman State Park');
+}
+);
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -30,4 +38,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
 
