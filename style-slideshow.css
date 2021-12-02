@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: tomato;
+    background-color: #660000;
 }
 
 #header-title {
@@ -12,8 +12,7 @@ header {
     display: block;
     color: white;
     text-transform: uppercase;
-    text-decoration: overline;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -26,7 +25,7 @@ header {
 
 .navbar li {
     float: left;
-    border-right: 1px solid tomato;
+    border-right: 1px solid #660000;
 }
 
 
@@ -65,7 +64,7 @@ header {
 
 
 footer {
-    background-color: tomato;
+    background-color: #660000;
     display: block;
     color: white;
     text-transform: uppercase;
