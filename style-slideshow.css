@@ -2,7 +2,13 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
+#centered {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 header {
     background-color: #660000;
