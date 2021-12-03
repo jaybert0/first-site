@@ -1,15 +1,3 @@
-const cliffInput = document.getElementById('cliff');
-cliffInput.addEventListener('click', function(){
-    alert(`One of my favorite hikes ever: Cathedral Rock in Sedona, AZ`);
-}
-);
-
-const hikeInput = document.getElementById('reeceAndJ');
-hikeInput.addEventListener('click', function(){
-    alert('Local happy spot: Harriman State Park');
-}
-);
-
 var slideIndex = 1;
 showSlides(slideIndex);
 

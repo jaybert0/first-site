@@ -169,3 +169,12 @@ footer {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#centered {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 10px;
+}
